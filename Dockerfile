@@ -1,4 +1,4 @@
-FROM debian:stretch-slim as builder
+FROM debian:stretch-slim 
 LABEL maintainer="Michel Oosterhof <michel@oosterhof.net>"
 
 RUN groupadd -r -g 1000 cowrie && \
